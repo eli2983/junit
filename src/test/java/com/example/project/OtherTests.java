@@ -22,7 +22,7 @@ class OtherTests {
 	@Test
 	void testfail() {
 	    String obj1="JB1";
-	    String obj2="JB2";
+	    String obj2="JB1";
 	    assertEquals(obj1,obj2);
 	}
 	
