@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.project.OtherTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec <<< FAILURE! - in com.example.project.OtherTests
+testfail  Time elapsed: 0.069 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<JB[1]> but was:<JB[2]>
+	at com.example.project.OtherTests.testfail(OtherTests.java:26)
+
