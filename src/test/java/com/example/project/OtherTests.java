@@ -10,7 +10,8 @@
 
 package com.example.project;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Test;				
+import static org.junit.Assert.assertEquals;
 
 class OtherTests {
 
@@ -19,7 +20,14 @@ class OtherTests {
 	}
 
 	@Test
+	void testfail() {
+	    String obj1="JB1";
+	    String obj2="JB2";
+	    assertEquals(obj1,obj2);
+	}
+	
+
+	@Test
 	void testThisOtherThing() {
 	}
-
 }
